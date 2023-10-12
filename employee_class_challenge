@@ -1,0 +1,14 @@
+class Employee {
+  constructor(name, position, salary) {
+    this.name = name;
+    this.position = position;
+    this.salary = salary;
+  }
+
+  getSalary() {
+    return this.salary;
+  }
+}
+const employee1 = new Employee("John Doe", "Software Developer", 75000);
+const salary = employee1.getSalary();
+console.log(`Employee's salary: ${salary}`);
